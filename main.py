@@ -33,8 +33,8 @@ def myclick():
     mylable = Label(root, text='I click the button', fg='blue', bg='red')
     mylable.pack()
 
-# mybottons = Button(root, text='Click fme', padx=30, pady=30) # padx and pady to resize 
-mybottons = Button(root, text='Click me', command=myclick, fg='blue', bg='black') # command for running a function 
+mybottons = Button(root, text='Click fme', padx=30, pady=30) # padx and pady to resize 
+# mybottons = Button(root, text='Click me', command=myclick, fg='blue', bg='black') # command for running a function 
 # fg for item color and bg for background color
 mybottons.pack()
 
